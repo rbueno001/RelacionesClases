@@ -24,14 +24,12 @@ public class Main {
         animal.hacerSonido();
         miGato.hacerSonido();
 
-        Figura figura = new Figura("figura");
         Rectangulo miRectangulo = new Rectangulo(5, 3);
         Circulo miCirculo = new Circulo(5);
 
-        Figura[] coleccionFiguras = new Figura[3];
-        coleccionFiguras[0] = figura;
-        coleccionFiguras[1] = miRectangulo;
-        coleccionFiguras[2] = miCirculo;
+        Figura[] coleccionFiguras = new Figura[2];
+        coleccionFiguras[0] = miRectangulo;
+        coleccionFiguras[1] = miCirculo;
 
         System.out.println("Area del rectangulo: " + miRectangulo.calcularArea());
         System.out.println("Perimetro del rectangulo: " + miRectangulo.calcularPerimetro());

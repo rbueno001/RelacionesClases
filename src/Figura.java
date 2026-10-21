@@ -1,4 +1,4 @@
-public class Figura {
+public abstract class Figura {
     // Atributos
     protected String tipo;
 
@@ -17,11 +17,7 @@ public class Figura {
         this.tipo = tipo;
     }
     // Para calcular Area
-    public double calcularArea() {
-        return -1;
-    }
+    public abstract double calcularArea();
     // Para calcular perímetro
-    public double calcularPerimetro() {
-        return -1;
-    }
+    public abstract double calcularPerimetro();
 }
