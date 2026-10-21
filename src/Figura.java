@@ -18,10 +18,10 @@ public class Figura {
     }
     // Para calcular Area
     public double calcularArea() {
-        return 0;
+        return -1;
     }
     // Para calcular perímetro
     public double calcularPerimetro() {
-        return 0;
+        return -1;
     }
 }
